@@ -10,5 +10,5 @@ title : 我的 Blog
     <li>
         {{ post.date | date_to_string}} <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
     </li>
-    {% endgot %}
+    {% endfor %}
 </ul>
