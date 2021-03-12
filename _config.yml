@@ -1,2 +1,7 @@
-theme: jekyll-theme-cayman
-baseurl: /tivatamber.github.io
+title:            "风吹过的地方"
+description:      "欢迎来到无人之处"
+url:              https://tivatamber.github.io # 域名
+
+defaults:
+  - values:
+      layout: "default"
